@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Translate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Item Id="Language_switch">
+		<de>Sprache ändern</de>
+		<en>Language switch</en>
+	</Item>
+	<Item Id="Übernehmen">
+		<de>Übernehmen</de>
+		<en>Accept</en>
+	</Item>
+	<Item Id="Schließen">
+		<de>Schließen</de>
+		<en>Close</en>
+	</Item>
+  <Item Id="Sprache">
+    <de>Deutsch</de>
+    <en>English</en>
+  </Item>
+  <Item Id="Sprache_Aendern">
+    <de>Sprache Ändern</de>
+    <en>Language switch</en>
+  </Item>
+</Translate>

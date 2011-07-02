@@ -1,0 +1,11 @@
+﻿<Window x:Class="Sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:glob="clr-namespace:System.Globalization;assembly=mscorlib"
+        Language="{Binding Path=WPFTranslate.XMLLanguage, ElementName=Sample, ConverterCulture={x:Static glob:CultureInfo.InvariantCulture}}"
+        Title="MainWindow" Height="111" Width="118" Name="Sample" Loaded="Sample_Loaded">
+    <Grid>
+        <Button Content="{Binding Path=WPFTranslate.Translation[Sprache_Aendern]}" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="button1" VerticalAlignment="Top" Width="Auto" Click="button1_Click" />
+        <Button Content="{Binding Path=WPFTranslate.Translation[Sprache]}" Height="23" HorizontalAlignment="Left" Margin="12,41,0,0" Name="button2" VerticalAlignment="Top" Width="Auto" Click="button2_Click"/>
+    </Grid>
+</Window>

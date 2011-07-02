@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Languages>
+  <Language Name="Deutsch" Culture="de-DE">
+	  <Id Name="de" />
+  </Language>
+  <Language Name="English" Culture="en-GB">
+	  <Id Name="en" />
+  </Language>
+</Languages>
