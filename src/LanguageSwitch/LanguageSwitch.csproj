@@ -59,7 +59,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Language.xml" />
+    <None Include="Language.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Languages.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

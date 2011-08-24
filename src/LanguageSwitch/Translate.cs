@@ -139,14 +139,14 @@ namespace LanguageSwitch
             set
             {
                 m_Translation = value;
-                if (m_First)
-                {
+                //if (m_First)
+                //{
                     foreach (WPFTranslate item in TanslateList)
                     {
                         item.Translation = null;
                     }
-                    m_First = false;
-                }
+                //    m_First = false;
+                //}
             }
         }
 

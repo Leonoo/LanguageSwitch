@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:glob="clr-namespace:System.Globalization;assembly=mscorlib"
         Language="{Binding Path=WPFTranslate.XMLLanguage, ElementName=LanguageSwitch, ConverterCulture={x:Static glob:CultureInfo.InvariantCulture}}"
-        Title="{Binding Path=WPFTranslate.Translation[Language_switch], ElementName=LanguageSwitch}" Height="100" Width="190" ResizeMode="NoResize" Loaded="Window_Loaded" Background="WhiteSmoke" Name="LanguageSwitch">
+        Title="{Binding Path=WPFTranslate.Translation[Language_switch], ElementName=LanguageSwitch}" Height="100" Width="190" ResizeMode="NoResize" Loaded="Window_Loaded" Background="WhiteSmoke" Name="LanguageSwitch"
+        WindowStartupLocation="CenterOwner">
     <Grid>
         <StackPanel Orientation="Vertical" VerticalAlignment="Center">
             <ComboBox Height="23" Name="comboBox1" Width="156" ItemsSource="{Binding}" DisplayMemberPath="Name" VerticalAlignment="Center" />
